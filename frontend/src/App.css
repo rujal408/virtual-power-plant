@@ -1,0 +1,42 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.input_field{
+  display: block;
+  width: 500px;
+  padding: 8px 16px;
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  border-radius: 6px;
+  -webkit-appearance: none;
+  color: #CDD9ED;
+  border: 1px solid #CDD9ED;
+  background: var(--input-background);
+  transition: border .3s ease;
+  &::placeholder {
+      color: var(--input-placeholder);
+  }
+  &:focus {
+      outline: none;
+      border-color: #275EFE;
+  }
+}
+
+table {
+  border: 2px solid forestgreen;
+  width: 800px;
+  height: 200px;
+}
+
+th {
+  border-bottom: 1px solid black;
+}
+
+td {
+  text-align: center;
+}
